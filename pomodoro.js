@@ -120,7 +120,7 @@ function circletime(variacetime,fixedtime,border){
 //===========================================
 
 pomostart.onclick = function () {
-    Interval = setInterval(pomostarttime, 10);
+    Interval = setInterval(pomostarttime, 1000);
     function pomostarttime() {
         pomotime--;
         if (pomotime == 0) {
@@ -133,7 +133,7 @@ pomostart.onclick = function () {
 
 
 shortstart.onclick=function(){
-    shortInterval=setInterval(shortstarttime,10);
+    shortInterval=setInterval(shortstarttime,1000);
     function shortstarttime(){
         short_time--;
         if(short_time==0){
@@ -146,7 +146,7 @@ shortstart.onclick=function(){
 
 
 longstart.onclick=function(){
-    longInterval=setInterval(longstarttime,10);
+    longInterval=setInterval(longstarttime,1000);
     function longstarttime(){
         long_time--;
         if(long_time==0){
